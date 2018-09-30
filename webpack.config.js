@@ -30,7 +30,6 @@ module.exports = {
   stats: 'errors-only',
   devServer: {
     port: 3000,
-    open: true,
     stats: {
       colors: true,
       hash: false,
