@@ -1,4 +1,5 @@
 const { open } = require('./functions/open');
+const { save } = require('./functions/save');
 
 module.exports = [
   {
@@ -8,6 +9,12 @@ module.exports = [
         label: 'Open',
         click() {
           open();
+        },
+      },
+      {
+        label: 'Save',
+        click() {
+          save();
         },
       },
     ],
