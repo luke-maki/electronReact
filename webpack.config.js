@@ -2,9 +2,9 @@ const path = require('path');
 const HTMLPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './views/src/js/index.js',
+  entry: './renderer/src/js/index.js',
   output: {
-    path: path.join(__dirname, '/views/build'),
+    path: path.join(__dirname, '/renderer/build'),
     filename: 'bundle.js',
   },
   module: {
@@ -24,7 +24,7 @@ module.exports = {
   },
   plugins: [
     new HTMLPlugin({
-      template: './views/src/html/index.html',
+      template: './renderer/src/html/index.html',
     }),
   ],
   stats: 'errors-only',

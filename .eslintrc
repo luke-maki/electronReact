@@ -6,6 +6,7 @@
     "react/jsx-filename-extension": "off",
     "react/prefer-stateless-function": "off",
     "react/no-array-index-key": "off",
-    "no-underscore-dangle": "off"
+    "no-underscore-dangle": "off",
+    "quotes": "off"
   }
 }
